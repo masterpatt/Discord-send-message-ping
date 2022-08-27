@@ -1,1 +1,1 @@
-# Discord-send-message-auto
+# Discord-send-message-ping
