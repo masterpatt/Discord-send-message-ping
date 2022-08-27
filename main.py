@@ -3,7 +3,7 @@ import time
 from keepAlive import keep_alive
 from discord.ext import commands
 
-client = commands.Bot(command_prefix = 'p!')
+client = commands.Bot(command_prefix = '!')
 
 @client.event
 async def on_ready():
@@ -17,7 +17,7 @@ async def on_message(message):
 
 # Commands
 @client.command()
-async def sendm(ctx):
+async def send(ctx):
   while True:
     time.sleep(0.9)
     await ctx.channel.send("@everyone")
